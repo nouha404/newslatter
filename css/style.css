@@ -8,8 +8,6 @@ body {
     font-family: "Poppins", sans-serif;
    
 }
-main {
-}
 main .logo {
     margin: 30px auto;
 
@@ -23,7 +21,7 @@ body main section{
     font-size: 2.5rem;
 }
 .section1 {
-    height: 420px;
+    min-height: 420px;
 
 }
 .section1 {
@@ -39,6 +37,9 @@ body main section{
 .contain-img {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
 }
 .section2 {
     margin-top: 40px;
