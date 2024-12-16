@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+   
+}
+main {
+}
+main .logo {
+    margin: 30px auto;
+
+}
+body main section{
+    background: #F9F095;
+    width: 100%;
+
+}
+.section1 h1, .section2 h1 {
+    font-size: 2.5rem;
+}
+.section1 {
+    height: 420px;
+
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+.section1 p  {
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.contain-img {
+    display: flex;
+    justify-content: center;
+}
+.section2 {
+    margin-top: 40px;
+    padding: 3% 10% 0 10%;
+    min-height: 500px;
+    background:#E7ECB6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section2 p , .violences p{
+    font-size: 2rem;
+}
+
+.btn {
+    background: #FFC7DD;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.violences {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 70vh;
+    background: #FFC7DD;
+    margin-top: 5%;
+    padding: 3% 10% 0 10%;
+}
+
+.violences h1 {
+    font-size: 3rem;
+}
+.violences h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.violences ul li {
+    font-size: 1.3rem;
+}
+.violences ul {
+    margin-left: 3%;
+}
+
+.violences .btn {
+
+    margin: 40px auto;
+    background: #F9F095;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid black;
+}
+.violences .para {
+    margin-top: 30px;
+}
+.violences ul li span {
+    font-weight: 600;
+}
+main .end {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+main .line {
+    margin: 3% auto;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    min-height: 430px;
+}
+main .line .contact span  {
+    display: flex;
+    font-weight: 500;
+    padding-right: 5px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+main .line .contact {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 120px;
+}
+main .line .circl  {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+main .line .contact p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .line .circl .child {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: #C2C2C2;
+}
+
+main .news {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main .discribe {
+    text-decoration: underline;
+    margin: 3% auto;
+}
