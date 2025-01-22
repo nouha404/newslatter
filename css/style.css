@@ -63,6 +63,11 @@ body main section{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px rgb(48, 47, 47);
+}
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .violences {
     display: flex;
@@ -110,6 +115,9 @@ body main section{
 .violences ul li span {
     font-weight: 600;
 }
+.violences h1, .end {
+    font-size: 2.5rem;
+}
 main .end {
     font-size: 3rem;
     font-weight: bold;
@@ -146,7 +154,7 @@ main .line .contact {
     min-height: 120px;
 }
 main .line .circl  {
-    width: 20%;
+    min-width: 50%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -175,8 +183,20 @@ main .discribe {
     margin: 3% auto;
 }
 main {
-    /*border: 2px solid black;
-    padding: 0 20%;*/
     width: 70%;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+    main h1 {
+        text-align: center;
+    }
+
+    main .line .circl  {
+        min-width: 100%;
+    }
+   
 }
